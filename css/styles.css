@@ -1,0 +1,80 @@
+.body {font-family:"Roboto", "Raleway", sans-serif;}
+.body {color:#212121;}
+:root {
+    --logo-color:#000000;
+    --text-color:#212121;
+    --text-highlight:#2196F3;
+    --text-background:#2196F3;
+    --contacts-text:#757575;
+    --background:#ffff;}
+
+
+.logo {font-family:"Raleway"; font-size:26px; font-weight: 700; text-decoration: none;}
+.logo2 {color: var(--logo-color);}
+.logo3 {color: var(--background);}
+
+
+.banner {font-size: 44px; font-weight: 900;line-height: 1.36;}
+.banner_2 {font-size: 36px; font-weight: 700; line-height: 1.16;}
+    
+.topic_1 {font-size: 14px; font-weight:700;line-height: 1.14;}
+.description_1 {font-size: 14px; font-weight:400; color: var(--contacts-text);line-height: 1.71;}
+
+
+.topic_2 {font-size: 16px; font-weight:500;line-height: 1.18;}
+.description_2 {font-size: 16px; font-weight:400; color: var(--contacts-text);line-height: 1.18;}
+
+.topic_3 {font-size: 18px; font-weight:700;line-height: 2;}
+.description_3 {font-size: 16px; color: var(--contacts-text);line-height: 1.87;}
+
+.contacts_header {font-size: 14px; font-weight: 500;}
+.contacts_footer {font-size: 14px; font-weight: 400;}
+
+.addr {font-size: 14px; font-weight: 400;color:#ffffff; line-height: 1.71;}
+
+
+.list {list-style: none;}
+
+
+
+
+.button1 {background-color: var(--text-highlight);color: var(--background);line-height: 1.875;} 
+.button1, .button2 {cursor:pointer;}
+.button2 {line-height; 1.62;}
+.button2:hover {background-color: var(--text-highlight);color: var(--background);}
+.button2:focus {background-color: var(--text-highlight);var(--background);}
+
+
+
+.link {font-size: 14px;text-decoration: none;}
+
+.link {
+    color:
+    var(--text-color);line-height: 1.14;
+   }
+.link:hover {
+    color: var(--text-highlight);
+  }
+  .link:focus {
+     color:var(--text-highlight);
+    ;
+  }
+
+.contacts_header {
+    color:var(--contacts-text);text-decoration: none;line-height: 1.14;
+  }
+.contacts_header:hover {
+    color:var(--text-highlight);
+  }
+.contacts_header:focus {
+    color:var(--text-highlight);
+  }
+.contacts_footer {
+    color:var(--contacts-text); text-decoration: none;line-height: 1.71;
+  }
+.contacts_footer:hover {
+    color:var(--text-highlight);
+  }
+.contacts_footer:focus {
+    color:var(--text-highlight);
+  }
